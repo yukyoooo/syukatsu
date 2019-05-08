@@ -285,7 +285,19 @@ footer p{
 
 
 
+/*  */
+/*  自己啓発のページ*/
+/*  */
 
+/*  前書き*/
+.SelfDevelopment-interest-wrapper{
+  padding-top:100px;
+}
+.SelfDevelopment-interest-wrapper a{
+  color:blue;
+  font-size: 14px;
+  text-decoration:underline;
+}
 
 
 /*  */
