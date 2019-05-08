@@ -375,3 +375,9 @@ footer p{
 .seventhDownload h2{
   font-size: 20px;
 }
+
+
+/*  フォントをメイリオにする*/
+body{
+font-family:'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif !important;
+}
