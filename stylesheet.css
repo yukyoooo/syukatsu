@@ -1,5 +1,17 @@
-*{box-sizing:border-box;}
-*{list-style: none;}
+*{
+box-sizing:border-box;
+list-style: none;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+}
+p{
+  color: rgba(0,0,0,0.8);
+  font-weight:bold;
+}
+
 
 .container {
   width:100%;
@@ -41,14 +53,14 @@ header {
 }
 .header-right {
   float: right;
-  display: inline-block;
+  display: block;
   background-color: rgba(255, 255, 255, 0.3);
   transition: all 0.5s;
   width:70%;
 }
 .header-right li{
   margin-right: 15px;
-  padding-bottom: 38px;
+  padding-bottom: 0px;
   float: left;
   font-size: 0.875rem;
   line-height: 30px;
@@ -60,11 +72,10 @@ header {
 }
 .header-right a {
   line-height: 50px;
-  height:10px;
+  height:50px;
   padding: 0px 30px;
   color:#220000;
   display: block;
-  text-decoration: none;
 }
 
 /*  ヘッダーのための余白*/
@@ -110,21 +121,22 @@ header {
   float: right;
   background-color: white;
   width:58%;
-  padding:80px 70px;
+  padding:40px 100px 30px 50px;
   margin-top:20px;
+
 }
 .about-name h2{
   font-family:'Comic Sans MS',cursive;
   font-size: 40px;
 }
 .about-text p{
-  font-size: 15px;
-  line-height: 30px;
+  font-size: 12px;
+  line-height: 27px;
 }
 .about-text h2{
   font-size: 30px;
   color:orange;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 /*  ビジョンの提示*/
@@ -137,19 +149,20 @@ header {
 .select-text-wrapper h2{
   padding: 80px 0px;
   margin: 0px;
-  font-size:18px;
+  font-size:16px;
   line-height: 40px;
 }
 
 /*  ４つのボタン*/
 .select-wrapper{
   height:800px;
-  margin:0px 10%;
+  padding:0px 8%;
   text-align: center;
+  background-color: #f5f5f5;
 }
-/*  ザ・コーチと７つの習慣*/
+/*  ４つのボタンーザ・コーチと７つの習慣*/
 .the-coach{
-  margin-top:100px;
+
   margin-bottom: 25px;
 }
 .the-coach-btn{
@@ -159,7 +172,7 @@ header {
   transition:  .5s;
   border-radius: 10px;
   cursor : pointer;
-
+  background-color: white;
 }
 .the-coach-text{
   float:left;
@@ -172,12 +185,15 @@ header {
   float:right;
   display:inline-block;
   width:50%;
-  padding-top:65px;
+  padding-top:45px;
 }
 .the-coach-btn:hover {
   background-color: rgba(255,165,0,0.8) ;
 }
-/*  鮮文の就活*/
+.the-coach-text2 p{
+  text-align: left;
+}
+/*  ４つのボタンー鮮文の就活*/
 .the-syukatsu{
   float: left;
   width:33%;
@@ -189,6 +205,7 @@ header {
   transition: .5s;
   border-radius: 10px;
   cursor:pointer;
+  background-color: white;
 }
 .the-syukatsu-btn:hover {
   background-color: rgba(255,165,0,0.8) ;
@@ -200,7 +217,7 @@ header {
   padding:0px 15%;
 }
 
-/*  ES作成*/
+/*  ４つのボタンーES作成*/
 .the-es{
   float: left;
   width:33%;
@@ -212,6 +229,7 @@ header {
   transition: .5s;
   border-radius: 10px;
   cursor:pointer;
+  background-color: white;
 }
 .the-es-btn:hover {
   background-color: rgba(255,165,0,0.8) ;
@@ -222,7 +240,7 @@ header {
 .the-es-text p{
   padding:0px 15%;
 }
-/*  よくある質問*/
+/*  ４つのボタンーよくある質問*/
 .the-faq{
   float: left;
   width:33%;
@@ -234,6 +252,7 @@ header {
   transition: .5s;
   border-radius: 10px;
   cursor:pointer;
+  background-color: white;
 }
 .the-faq-btn:hover {
   background-color: rgba(255,165,0,0.8) ;
@@ -247,23 +266,7 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*  フッター*/
 footer {
   padding-top:100px;
   width:100%;
@@ -278,4 +281,85 @@ footer p{
   padding-top:60px;
   color:white;
   margin:0px;
+}
+
+
+
+
+
+
+/*  */
+/*  FAQページのCSS*/
+/*  */
+
+/*  FAQ*/
+/*faq wrapper*/
+.faq-wrapper {
+
+  background-color: white;
+  text-align: center;
+  padding-bottom: 80px;
+  color: rgba(0,0,0,0.8);
+  padding-top:50px;
+}
+#faq-list {
+  width: 950px;
+  margin: 0 auto;
+  padding:30px 0px 0px  0px;
+  list-style: none;
+}
+.faq-list-item {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+.faq-list-item h3 {
+  font-size: 15px;
+}
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:black;
+  font-size:13px;
+}
+.answer {
+  font-size: 15px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  display: none;
+}
+/*  きよみさんへの促進*/
+.contact{
+  text-align: center;
+  height: 100px;
+  color: rgba(0,0,0,0.8);
+}
+.contact h2{
+  font-size: 20px;
+}
+
+
+
+/*  */
+/*  自己啓発のページのCSS*/
+/*  */
+
+/*  interest自己啓発前書き*/
+.SelfDevelopment-interest-wrapper{
+  text-align: center;
+}
+
+/*  押すと開く仕組みはFAQのCSSにあります*/
+
+/*  資料ダウンロード*/
+.seventhDownload{
+  text-align: center;
+  height: 100px;
+  color: rgba(0,0,0,0.8);
+}
+.seventhDownload h2{
+  font-size: 20px;
 }
