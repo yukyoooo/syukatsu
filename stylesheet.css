@@ -350,9 +350,9 @@ footer p{
 .faq-wrapper {
   background-color: white;
   text-align: center;
-  padding-bottom: 80px;
+  padding-bottom: 180px;
   color: rgba(0,0,0,0.8);
-  padding-top:50px;
+  padding-top:150px;
 }
 #faq-list {
   width: 950px;
