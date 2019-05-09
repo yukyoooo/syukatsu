@@ -292,11 +292,31 @@ footer p{
 /*  前書き*/
 .SelfDevelopment-interest-wrapper{
   padding-top:100px;
+  height: 600px;
+  width: 100%;
 }
 .SelfDevelopment-interest-wrapper a{
   color:blue;
   font-size: 14px;
   text-decoration:underline;
+}
+.SelfDevelopment-interest-text{
+  float: left;
+  width:60%;
+  padding-right: 5%;
+  text-align: left;
+}
+.SelfDevelopment-interest-text h2{
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+}
+.SelfDevelopment-interest-img{
+  float: right;
+  width:40%;
+  margin-top:40px;
+}
+.SelfDevelopment-interest-img img{
+  border-radius: 20px;
 }
 
 
@@ -344,13 +364,39 @@ footer p{
   display: none;
 }
 /*  きよみさんへの促進*/
-.contact{
-  text-align: center;
-  height: 100px;
+.form h3{
+  font-size: 20px;
   color: rgba(0,0,0,0.8);
 }
-.contact h2{
-  font-size: 20px;
+/*  メールフォーム*/
+.contact-form{
+  text-align: center;
+  height:550px;
+}
+.section-title {
+  border-bottom: 1px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin:0 10% 40px 10%;
+}
+input, textarea{
+  width:300px;
+  font-size:15px;
+  padding:5px;
+  border:1px solid #gray;
+}
+textarea{
+  height: 200px;
+  font-family: cursive;
+}
+.contact-submit{
+  background-color: #5dca88;
+  color:white;
+  width:140px;
+  padding: 10px;
+}
+.contact-form p{
+  margin-bottom: 0px;
 }
 
 
@@ -375,6 +421,8 @@ footer p{
 .seventhDownload h2{
   font-size: 20px;
 }
+
+
 
 
 /*  フォントをメイリオにする*/
