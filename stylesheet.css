@@ -65,7 +65,6 @@ header {
 .header-right li:hover {
   background-color: rgba(255,165,0,0.5) ;
   border-radius: 10px;
-
 }
 .header-right a {
   line-height: 50px;
@@ -182,7 +181,7 @@ header {
   float:right;
   display:inline-block;
   width:50%;
-  padding-top:45px;
+  padding-top:35px;
 }
 .the-coach-btn:hover {
   background-color: rgba(255,165,0,0.8) ;
@@ -234,6 +233,7 @@ header {
 .the-es-text h2{
   padding:80px 0px 60px 0px;
 }
+
 .the-es-text p{
   padding:0px 15%;
 }
@@ -282,7 +282,8 @@ footer p{
 
 
 /*  */
-/*  それぞれのページの共通前書き部分*/
+/*  それぞれのページの共通部分*/
+/*  */
 /*  前書き*/
 .interest-wrapper{
   padding-top:100px;
@@ -349,7 +350,30 @@ footer p{
   margin-bottom: 15px;
   display: none;
 }
-
+/*  資料ダウンロードボタン*/
+.Download-wrapper{
+  height: 150px;
+}
+.Download{
+  height: 80px;
+  margin:auto;
+  text-align: center;
+  width: 300px;
+  display: block;
+  transition:  .5s;
+  border-radius: 10px;
+  cursor : pointer;
+  background-color:rgba(255,165,0,0.4);
+}
+.Download-wrapper a{
+  font-size: 20px;
+  color: rgba(0,0,0,0.8);
+  line-height: 80px;
+  font-weight: bold;
+}
+.Download:hover {
+  background-color: rgba(255,165,0) ;
+}
 
 
 /*  */
@@ -405,20 +429,6 @@ textarea{
 /*  自己啓発のページのCSS*/
 /*  */
 
-/*  interest自己啓発前書き*/
-
-
-/*  押すと開く仕組みはFAQのCSSにあります*/
-
-/*  資料ダウンロード*/
-.seventhDownload{
-  text-align: center;
-  height: 100px;
-  color: rgba(0,0,0,0.8);
-}
-.seventhDownload h2{
-  font-size: 20px;
-}
 
 
 
