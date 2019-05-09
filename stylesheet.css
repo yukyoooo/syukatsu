@@ -281,78 +281,44 @@ footer p{
 }
 
 
-
 /*  */
-/*  自己啓発のページ*/
-/*  */
-
+/*  それぞれのページの共通前書き部分*/
 /*  前書き*/
-.SelfDevelopment-interest-wrapper{
+.interest-wrapper{
   padding-top:100px;
   height: 600px;
   width: 100%;
 }
-.SelfDevelopment-interest-wrapper a{
+.interest-wrapper a{
   color:blue;
   font-size: 14px;
   text-decoration:underline;
 }
-.SelfDevelopment-interest-text{
+.interest-text{
   float: left;
   width:60%;
   padding-right: 5%;
   text-align: left;
 }
-.SelfDevelopment-interest-text h2{
+.interest-text h2{
   border-bottom: 1px solid gray;
   margin-bottom: 30px;
 }
-.SelfDevelopment-interest-img{
+.interest-img{
   float: right;
   width:40%;
   margin-top:40px;
 }
-.SelfDevelopment-interest-img img{
+.interest-img img{
   border-radius: 20px;
 }
-
-
-/*  */
-/*  FAQページのCSS*/
-/*  */
-
-/*  FAQ*/
-/*faq wrapper*/
-.faq-interest-wrapper{
-  padding-top:100px;
-  height: 600px;
-  width: 100%;
-}
-.faq-interest-text{
-  float: left;
-  width:60%;
-  padding-right: 5%;
-  text-align: left;
-}
-.faq-interest-text h2{
-  border-bottom: 1px solid gray;
-  margin-bottom: 30px;
-}
-.faq-interest-img{
-  float: right;
-  width:40%;
-  margin-top:40px;
-}
-.faq-interest-img img{
-  border-radius: 20px;
-}
-
+/*  押すページが開く*/
 .faq-wrapper {
   background-color: white;
   text-align: center;
   padding-bottom: 180px;
   color: rgba(0,0,0,0.8);
-  padding-top:150px;
+  padding-top:100px;
 }
 #faq-list {
   width: 950px;
@@ -383,6 +349,20 @@ footer p{
   margin-bottom: 15px;
   display: none;
 }
+
+
+
+/*  */
+/*  自己啓発のページ*/
+/*  */
+
+
+
+/*  */
+/*  FAQページのCSS*/
+/*  */
+
+
 /*  きよみさんへの促進*/
 .form h3{
   font-size: 20px;
@@ -426,9 +406,7 @@ textarea{
 /*  */
 
 /*  interest自己啓発前書き*/
-.SelfDevelopment-interest-wrapper{
-  text-align: center;
-}
+
 
 /*  押すと開く仕組みはFAQのCSSにあります*/
 
