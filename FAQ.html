@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -85,9 +86,27 @@
       </div>
     </div>
 
-    <div class="contact">
-      <h2>この他にも気になることは日本人留学生サポーターの佐藤清未先生に聞いてみてください。<h2>
-    </div>
+    <form id="form" class="form"　method="POST" action="mail.php">
+      <div class="contact-form">
+        <h3 class="section-title">この他にも気になることは日本人留学生サポーターの佐藤清未先生に聞いてみてください。</h3>
+        <div class="form-group">
+          <p id="error-message" class="error-message"></p>
+          <p>名前</p>
+          <input id="text-form1" class="text-form" name="名前">
+        </div>
+        <div class="form-group">
+          <p id="error-message" class="error-message"></p>
+          <p>メールアドレス</p>
+          <input id="text-form2" class="text-form" name="メールアドレス">
+        </div>
+        <div class="form-group">
+          <p id="error-message" class="error-message"></p>
+          <p>質問内容</p>
+          <textarea id="text-form3" class="text-form" name="お問い合わせ内容"></textarea>
+        </div>
+        <input class="contact-submit" id="btn" type="submit"  value="送信" >
+      </div>
+    </form>
 
     <footer>
       <div class="footer-wrapper">
