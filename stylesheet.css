@@ -363,7 +363,7 @@ footer p{
   transition:  .5s;
   border-radius: 10px;
   cursor : pointer;
-  background-color:rgba(255,165,0,0.4);
+  background-color:rgba(255,165,0);
 }
 .Download-wrapper a{
   font-size: 20px;
@@ -372,7 +372,7 @@ footer p{
   font-weight: bold;
 }
 .Download:hover {
-  background-color: rgba(255,165,0) ;
+  background-color: rgba(255,165,0,0.5) ;
 }
 
 
@@ -380,6 +380,14 @@ footer p{
 /*  自己啓発のページ*/
 /*  */
 
+
+/*  */
+/*  就活のページのCSS*/
+/*  */
+
+/*  */
+/*  ESのページのCSS*/
+/*  */
 
 
 /*  */
@@ -395,7 +403,7 @@ footer p{
 /*  メールフォーム*/
 .contact-form{
   text-align: center;
-  height:550px;
+  height:600px;
 }
 .section-title {
   border-bottom: 1px solid #dee7ec;
@@ -414,10 +422,25 @@ textarea{
   font-family: cursive;
 }
 .contact-submit{
-  background-color: #5dca88;
-  color:white;
-  width:140px;
-  padding: 10px;
+  height: 60px;
+  margin:auto;
+  text-align: center;
+  width: 250px;
+  display: block;
+  transition:  .5s;
+  border-radius: 10px;
+  cursor : pointer;
+  border-style: none;
+  background-color:rgba(255,165,0);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.8);
+}
+.getheigth{
+  height: 40px;
+}
+.contact-submit:hover {
+  background-color: rgba(255,165,0,0.5) ;
 }
 .contact-form p{
   margin-bottom: 0px;
@@ -425,9 +448,6 @@ textarea{
 
 
 
-/*  */
-/*  自己啓発のページのCSS*/
-/*  */
 
 
 
