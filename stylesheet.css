@@ -18,7 +18,6 @@ p{
 }
 .container h2{
   font-size:20px;
-  padding-bottom: 10px;
 }
 .container p{
   font-size:14px;
@@ -304,6 +303,7 @@ footer p{
 .interest-text h2{
   border-bottom: 1px solid gray;
   margin-bottom: 30px;
+  padding-bottom: 10px;
 }
 .interest-img{
   float: right;
@@ -349,6 +349,13 @@ footer p{
   padding: 5px 0px;
   margin-bottom: 15px;
   display: none;
+}
+.answer h2{
+  margin:0;
+  padding:0;
+}
+.answer p{
+  font-weight: normal;
 }
 /*  資料ダウンロードボタン*/
 .Download-wrapper{
