@@ -31,21 +31,24 @@ p{
 /* ヘッダーについて*/
 header {
   height:80px;
-  width: 100%;
+  width: 105%;
   background-color: rgba(255, 255, 255, 0.8);
   position:fixed;
   top:0px;
   z-index:10;
-  border-bottom: 1px solid #dcdcdc;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,.14);
 }
 .header-left {
   float: left;
   display: inline-block;
   width:30%;
 }
-.header-left h2{
-  line-height: 45px;
+.header-left a{
+  line-height: 80px;
   color:#800000;
+  font-size:20px;
+  font-weight: bold;
+  cursor : pointer;
 }
 .header-right {
   float: right;
@@ -139,7 +142,6 @@ header {
   height: 270px;
   text-align: center;
   background-color: #f5f5f5;
-
 }
 .select-text-wrapper h2{
   padding: 80px 0px;
@@ -150,17 +152,16 @@ header {
 
 /*  ４つのボタン*/
 .select-wrapper{
-  height:800px;
+  height:700px;
   padding:0px 8%;
   text-align: center;
   background-color: #f5f5f5;
 }
 /*  ４つのボタンーザ・コーチと７つの習慣*/
 .the-coach{
-
   margin-bottom: 25px;
 }
-.the-coach-btn{
+.the-btn{
   height: 250px;
   width: 100%;
   display: block;
@@ -182,8 +183,9 @@ header {
   width:50%;
   padding-top:35px;
 }
-.the-coach-btn:hover {
+.the-btn:hover {
   background-color: rgba(255,165,0,0.8) ;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
 }
 .the-coach-text2 p{
   text-align: left;
@@ -193,72 +195,24 @@ header {
   float: left;
   width:33%;
 }
-.the-syukatsu-btn{
-  height: 400px;
-  width:100%;
-  display: block;
-  transition: .5s;
-  border-radius: 10px;
-  cursor:pointer;
-  background-color: white;
+.the-text h2{
+  padding:50px 0px 30px 0px;
 }
-.the-syukatsu-btn:hover {
-  background-color: rgba(255,165,0,0.8) ;
+.the-text p{
+  padding:0px 7%;
 }
-.the-syukatsu-text h2{
-  padding:80px 0px 60px 0px;
-}
-.the-syukatsu-text p{
-  padding:0px 15%;
-}
-
 /*  ４つのボタンーES作成*/
 .the-es{
   float: left;
   width:33%;
 }
-.the-es-btn{
-  height: 400px;
-  width:100%;
-  display: block;
-  transition: .5s;
-  border-radius: 10px;
-  cursor:pointer;
-  background-color: white;
-}
-.the-es-btn:hover {
-  background-color: rgba(255,165,0,0.8) ;
-}
-.the-es-text h2{
-  padding:80px 0px 60px 0px;
-}
 
-.the-es-text p{
-  padding:0px 15%;
-}
 /*  ４つのボタンーよくある質問*/
 .the-faq{
   float: left;
   width:33%;
 }
-.the-faq-btn{
-  height: 400px;
-  width:100%;
-  display: block;
-  transition: .5s;
-  border-radius: 10px;
-  cursor:pointer;
-  background-color: white;
-}
-.the-faq-btn:hover {
-  background-color: rgba(255,165,0,0.8) ;
-}
-.the-faq-text h2{
-  padding:80px 0px 60px 0px;
-}
-.the-faq-text p{
-  padding:0px 15%;
-}
+
 
 
 
@@ -371,6 +325,7 @@ footer p{
   border-radius: 10px;
   cursor : pointer;
   background-color:rgba(255,165,0);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.12), 0 2px 2px 0 rgba(0,0,0,.24);/*影*/
 }
 .Download-wrapper a{
   font-size: 20px;
@@ -380,6 +335,7 @@ footer p{
 }
 .Download:hover {
   background-color: rgba(255,165,0,0.5) ;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
 }
 
 
@@ -442,12 +398,15 @@ textarea{
   font-size: 20px;
   font-weight: bold;
   color: rgba(0,0,0,0.8);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.12), 0 2px 2px 0 rgba(0,0,0,.24);/*影*/
 }
 .getheigth{
   height: 40px;
 }
 .contact-submit:hover {
   background-color: rgba(255,165,0,0.5) ;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+
 }
 .contact-form p{
   margin-bottom: 0px;
