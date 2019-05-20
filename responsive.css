@@ -1,0 +1,26 @@
+/*  タブレット向けレイアウト*/
+@media all and (max-width: 1005px) {
+
+.container p{
+  font-size:12px;
+  line-height:25px;
+}
+/*  トップページに対する変更*/
+/*  ヘッダーの幅変更*/
+.header-right a {padding: 0px 10px;}
+
+.about-name{width: 30%;}
+.about-name h2{font-size: 30px;}
+.about-text{width:68%;}
+.about-text p{line-height: 23px;}
+
+.select-wrapper p{text-align: left;}
+
+/*  共通ページ*/
+.interest-wrapper img{width:400px;}
+#faq-list {width: 100%;}
+.faq-list-item img{width:100%;}
+.top-wrapper h1{font-size:75px;}
+#coach1 {width:50%;}
+#syukatu1 {width:70%;}
+}
