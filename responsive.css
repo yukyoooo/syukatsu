@@ -6,21 +6,34 @@
   line-height:25px;
 }
 /*  トップページに対する変更*/
-/*  ヘッダーの幅変更*/
 .header-right a {padding: 0px 10px;}
-
 .about-name{width: 30%;}
 .about-name h2{font-size: 30px;}
 .about-text{width:68%;}
 .about-text p{line-height: 23px;}
 
-.select-wrapper p{text-align: left;}
-
 /*  共通ページ*/
-.interest-wrapper img{width:400px;}
+.interest-wrapper img{width:100%;margin-top:40px;}
+.interest-text h2{font-size:18px;}
+.interest-wrapper a{  font-size: 12px;}
 #faq-list {width: 100%;}
 .faq-list-item img{width:100%;}
 .top-wrapper h1{font-size:75px;}
 #coach1 {width:50%;}
 #syukatu1 {width:70%;}
+
+
+/*  ボタン修正*/
+.the-btn {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.24);/*影*/
+  border-radius: 10px;
+}
+.the-btn:hover {
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+.the-coach-text{padding:100px 10px 0px 10px;}
+.the-coach-text h2{font-size:19px;}
+.the-coach-text2{padding:40px 10px 0px 10px;}
+.the-text p{padding:0px 0%;}
+.select-wrapper{padding:0px 3%;}
 }
