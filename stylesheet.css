@@ -1,3 +1,4 @@
+
 *{
 box-sizing:border-box;
 list-style: none;
@@ -56,6 +57,7 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
   transition: all 0.5s;
   width:70%;
+  position: relative;
 }
 .header-right li{
   margin-right: 15px;
@@ -76,10 +78,34 @@ header {
   display: block;
 }
 
+/*  スマホ用ヘッダー*/
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
+}
+/*中身*/
+#nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;/*最前面に*/
+    width: 90%;/*右側に隙間を作る*/
+    max-width: 330px;/*最大幅*/
+    height: 100%;
+    background: #fff;/*背景色*/
+    transition: .3s ease-in-out;/*滑らかに表示*/
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);/*左に隠しておく*/
+}
+
+
+
 /*  ヘッダーのための余白*/
 .top-wrapperTowhite{
   height:20px;
 }
+
 
 /*  トップ*/
 .top-wrapper{
@@ -121,7 +147,7 @@ header {
   width:58%;
   padding:40px 100px 30px 50px;
   margin-top:20px;
-
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.12), 0 2px 2px 0 rgba(0,0,0,.24);
 }
 .about-name h2{
   font-family:'Comic Sans MS',cursive;
@@ -190,6 +216,9 @@ header {
 .the-coach-text2 p{
   text-align: left;
 }
+.the-coach-text3 {
+  display:none;
+}
 /*  ４つのボタンー鮮文の就活*/
 .the-syukatsu{
   float: left;
@@ -218,11 +247,8 @@ header {
 
 /*  フッター*/
 footer {
-  padding-top:100px;
   width:100%;
   height:100px;
-  margin-top:10px;
-  padding-top:00px;
   background-color: rgba(34, 49, 52, 0.9);
 }
 
@@ -240,8 +266,8 @@ footer p{
 /*  前書き*/
 .interest-wrapper{
   padding-top:100px;
-  height: 600px;
   width: 100%;
+  height: 450px;
 }
 .interest-wrapper a{
   color:blue;
@@ -273,7 +299,7 @@ footer p{
   text-align: center;
   padding-bottom: 180px;
   color: rgba(0,0,0,0.8);
-  padding-top:100px;
+  padding-top:200px;
 }
 #faq-list {
   width: 950px;
@@ -288,8 +314,8 @@ footer p{
   cursor:pointer;
   text-align: left;
 }
-.faq-list-item h3 {
-  font-size: 15px;
+.faq-list-item h2 {
+  font-size: 20px;
 }
 .faq-list-item span {
   position:absolute;
@@ -359,7 +385,7 @@ footer p{
 
 
 /*  きよみさんへの促進*/
-.form h3{
+.form h2{
   font-size: 20px;
   color: rgba(0,0,0,0.8);
 }
