@@ -217,7 +217,7 @@ iframe{width:100%;height:220px;}
 .Download-wrapper a{font-size: 15px;line-height: 65px;}
 input[type="submit"] {
 -webkit-appearance: none;
-border-radius: 0;
+border-radius: 10;
 }
 /*  */
 /*  FAQページのCSS*/
