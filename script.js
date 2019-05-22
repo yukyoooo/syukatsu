@@ -22,5 +22,20 @@ $(function(){
     }
   });
 
+  
+    $.ajax({
+    url: "https://docs.google.com/forms/hoge/formResponse",
+    data: {"entry.123456789": name},
+    type: "POST",
+    dataType: "xml",
+    statusCode: {
+      0: function() {
+        //Success message
+      },
+      200: function() {
+        //Success Message
+      }
+    }
+  })
 
   });
