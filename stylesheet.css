@@ -1,4 +1,3 @@
-
 *{
 box-sizing:border-box;
 list-style: none;
@@ -385,20 +384,17 @@ footer p{
 
 
 /*  きよみさんへの促進*/
-.form h2{
-  font-size: 20px;
-  color: rgba(0,0,0,0.8);
+.section-title {
+  border-bottom: 1px solid #dee7ec;
+  font-size: 23px;
+  color:rgba(0,0,0,.8);
+  padding-bottom: 15px;
+  margin:0 10% 40px 10%;
 }
 /*  メールフォーム*/
 .contact-form{
   text-align: center;
-  height:600px;
-}
-.section-title {
-  border-bottom: 1px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin:0 10% 40px 10%;
+  height:700px;
 }
 input, textarea{
   width:300px;
