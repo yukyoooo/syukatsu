@@ -223,6 +223,12 @@ border-radius: 10;
 /*  */
 /*  FAQページのCSS*/
 /*  */
+/*  質問の文字の大きさ*/
+.faq-list-item h3 {
+  font-size: 13px;
+  padding-right: 40px;
+  line-height: 16px;
+}
 /*  きよみさんへの促進*/
 .section-title{font-size: 13px;padding-top:50px;}
 .contact-form p{font-size:13px;}
