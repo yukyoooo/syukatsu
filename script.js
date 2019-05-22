@@ -24,7 +24,7 @@ $(function(){
 
   
     $.ajax({
-    url: "https://docs.google.com/forms/hoge/formResponse",
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSfBWkbWmjhItYthNccyYeLbaVQ9LHMnJ1keqyr9ygfOCk35gw/viewform",
     data: {"entry.123456789": name},
     type: "POST",
     dataType: "xml",
