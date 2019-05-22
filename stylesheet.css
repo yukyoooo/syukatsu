@@ -423,6 +423,7 @@ textarea{
   font-size: 20px;
   font-weight: bold;
   color: rgba(0,0,0,0.8);
+  padding-top:10px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.12), 0 2px 2px 0 rgba(0,0,0,.24);/*影*/
 }
 .getheigth{
@@ -435,6 +436,10 @@ textarea{
 }
 .contact-form p{
   margin-bottom: 0px;
+}
+.faq-list-item h3 {
+  font-size: 17px;
+
 }
 
 
