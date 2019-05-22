@@ -224,7 +224,7 @@ border-radius: 10;
 /*  FAQページのCSS*/
 /*  */
 /*  きよみさんへの促進*/
-.form h2{font-size: 13px;padding-top:50px;}
+.section-title{font-size: 13px;padding-top:50px;}
 .contact-form p{font-size:13px;}
 .contact-form{
   text-align: center;
