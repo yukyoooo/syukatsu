@@ -23,9 +23,10 @@ $(function(){
   });
 
   
-    $.ajax({
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSfBWkbWmjhItYthNccyYeLbaVQ9LHMnJ1keqyr9ygfOCk35gw/viewform",
-    data: {"entry.123456789": name},
+    
+  $.ajax({
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSfBWkbWmjhItYthNccyYeLbaVQ9LHMnJ1keqyr9ygfOCk35gw/formResponse",
+    data: {"entry.756226874": text-form1,"entry.6154243": text-form2,"entry.1441632183": text-form3},
     type: "POST",
     dataType: "xml",
     statusCode: {
