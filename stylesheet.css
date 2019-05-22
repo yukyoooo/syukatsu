@@ -316,6 +316,9 @@ footer p{
 .faq-list-item h2 {
   font-size: 20px;
 }
+.faq-list-item h3 {
+  font-size: 20px;
+}
 .faq-list-item span {
   position:absolute;
   top:0;
