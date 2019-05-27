@@ -117,8 +117,7 @@ header {height:50px;}
     color: #555;
     padding:0px 10px;
 }
-li{  border-bottom:1px solid #dcdcdc;transition: 0.3s;}
-li:active{background-color:orange;}
+li{  border-bottom:1px solid #dcdcdc;}
 a{display: block;color:#808080;font-size:13px;}
 .careerlab {
   display:block;
